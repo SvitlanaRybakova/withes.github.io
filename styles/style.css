@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url('/imgs/background.jpg');
+  background-image: url('../imgs/background.jpg');
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -240,7 +240,7 @@ body {
   width: 32px;
   height: 23px;
   border: none;
-  background-image: url('/imgs/series/arrow.svg');
+  background-image: url('../imgs/series/arrow.svg');
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center;
