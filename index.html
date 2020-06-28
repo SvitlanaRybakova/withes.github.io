@@ -8,6 +8,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/swiper.min.css">
+  <link rel="stylesheet" href="styles/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
@@ -38,6 +41,10 @@
         </div>
       </div>
       <!-- /.header -->
+
+      <div class="menu-btn"> </div>
+      <!-- /.menu-btn -->
+
     </div>
     <!-- /.container -->
   </header>
@@ -46,8 +53,8 @@
     <div class="container">
       <div class="main-content">
         <div class="content">
-          <span class="genre">2019, fantasy</span>
-          <div class="rating">
+          <span class="genre animate__animated animate__fadeInRight">2019, fantasy</span>
+          <div class="rating animate__animated animate__fadeInRight">
             <div class="rating-stars">
               <img src="imgs/star.svg" alt="star" class="star">
               <img src="imgs/star.svg" alt="star" class="star">
@@ -62,19 +69,19 @@
             </div>
             <div class="rating-number">7/10</div>
           </div>
-          <h1 class="main-title">Vithcer </h1>
-          <p class="main-description">The Witcher is a Polish-American fantasy drama series produced by Lauren Schmidt
+          <h1 class="main-title  animate__animated animate__fadeInRight">Vithcer </h1>
+          <p class="main-description animate__animated animate__fadeInRight">The Witcher is a Polish-American fantasy drama series produced by Lauren Schmidt
             Hissrich. It is based on the book series of the same name by Polish writer Andrzej Sapkowski. <br>
             Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where
             people often prove more wicked than beasts.
           </p>
 
-          <button class="button">Watch online</button>
+          <a data-fancybox href="https://www.youtube.com/watch?v=291768eUV-U" class="button animate__animated animate__fadeInRight">Top 10 Fight Scenes</a>
         </div>
         <!-- /.content -->
-        <button class="play">
+        <a data-fancybox href="https://www.youtube.com/watch?v=ndl1W4ltcmg" class="play">
           <img class="playImg" src="imgs/playButton.svg" alt="play button">
-        </button>
+        </a>
         <!-- /.play -->
       </div>
       <!-- /.main-content -->
@@ -155,7 +162,7 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-contant">
+      <div class="footer-content">
         <div class="left">
           <span class="copyright">© 2020 The Witcher. All right reserved.</span>
         </div>
@@ -174,6 +181,8 @@
   </footer>
 
   <script src="/js/swiper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="/js/jquery.fancybox.min.js"></script>
   <script src="/js/main.js"></script>
 </body>
 
